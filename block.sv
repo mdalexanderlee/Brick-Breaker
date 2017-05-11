@@ -1,14 +1,14 @@
 
-module  block (input         Reset, 
+module  block (input         Reset,
                              frame_clk,          // The clock indicating a new frame (~60Hz)
 					input  [7:0]  key,
                output [9:0]  BlockX, BlockY, BlockW, BlockH, // Block coordinates and size
 					output [9:0] Block_X_Motion_Out
 					);
-    
+
     logic [9:0] Block_X_Pos, Block_X_Motion, Block_Y_Pos, Block_Y_Motion;
     logic [9:0] Block_X_Pos_in, Block_X_Motion_in, Block_Y_Pos_in, Block_Y_Motion_in;
-     
+
     parameter [9:0] Block_X_Center=320;  // Center position on the X axis
     parameter [9:0] Block_Y_Center=400;  // Center position on the Y axis
     parameter [9:0] Block_X_Min=0;       // Leftmost point on the X axis
@@ -19,16 +19,16 @@ module  block (input         Reset,
     parameter [9:0] Block_Y_Step=3;      // Step size on the Y axis
     parameter [9:0] Block_Width=25;        // Block size
     parameter [9:0] Block_Height=2;        // Block size
-    
+
 	 assign Block_X_Motion_Out = Block_X_Motion;
     assign BlockX = Block_X_Pos;
     assign BlockY = Block_Y_Pos;
     assign BlockW = Block_Width;
     assign BlockH = Block_Height;
-    
-	 
+
+
 	 logic right, left;
-	 
+
     always_ff @ (posedge frame_clk or posedge Reset)
     begin
         if (Reset) // reset
@@ -38,10 +38,10 @@ module  block (input         Reset,
             Block_X_Motion <= 10'd0;
             Block_Y_Motion <= 10'd0;
         end
-        else 
-		  
+        else
+
         begin
-		  
+
 
 		case(key)
 			default: // keep moving
@@ -51,8 +51,8 @@ module  block (input         Reset,
             Block_X_Motion <= 10'd0;
             Block_Y_Motion <= 10'd0;
 				end
-			
-			
+
+
 			8'h04: //A
 			begin
 				if(left == 1'b1)
@@ -87,28 +87,22 @@ module  block (input         Reset,
 					Block_X_Motion <= 10'd0;
 				end
 			end
-			
+
 			endcase
         end
     end
-    
+
     always_comb
     begin
         // By default, keep motion unchanged
         Block_X_Motion_in = Block_X_Motion;
         Block_Y_Motion_in = Block_Y_Motion;
-        
-        // Be careful when using comparators with "logic" datatype becuase compiler treats 
-        //   both sides of the operator UNSIGNED numbers. (unless with further type casting)
-        // e.g. Block_Y_Pos - Block_Size <= Block_Y_Min 
-        // If Block_Y_Pos is 0, then Block_Y_Pos - Block_Size will not be -4, but rather a large positive number.
-		  left = 1'b1;
-		  right = 1'b1;
-		  	
-		  
+		    left = 1'b1;
+		    right = 1'b1;
+
 		  if((Block_X_Pos + BlockW) >= Block_X_Max )  // Block is at the right edge
 			begin
-            Block_X_Motion_in = 10'd0;		
+            Block_X_Motion_in = 10'd0;
 				right = 1'b0;
 			end
 		  else if((Block_X_Pos - BlockW) <= (Block_X_Min + 2'd2))  // Block is at the left edge
@@ -116,15 +110,11 @@ module  block (input         Reset,
             Block_X_Motion_in = 10'd0;
 				left = 1'b0;
 			end
-			
 
-        
         // Update the Block's position with its motion
         Block_X_Pos_in = Block_X_Pos + Block_X_Motion;
         Block_Y_Pos_in = Block_Y_Pos + Block_Y_Motion;
 
     end
-    
+
 endmodule
-
-
