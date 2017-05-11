@@ -1,0 +1,113 @@
+Quartus II Archive log --	C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab8_tmp_archive.qarlog
+
+Archive:	C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab8_tmp_archive.qar
+Date:		Tue May 02 12:14:12 2017
+Quartus II 64-Bit		15.0.0 Build 145 04/22/2015 SJ Web Edition
+
+	=========== Files Selected: ===========
+C:/Users/alee/Desktop/ECE385-HelperTools-master/ECE385-HelperTools-master/PNG To Hex/On-Chip Memory/GameOverROM.sv
+C:/Users/alee/Desktop/ECE385-HelperTools-master/ECE385-HelperTools-master/PNG To Hex/On-Chip Memory/heartROM.sv
+C:/Users/alee/Desktop/ECE385-HelperTools-master/ECE385-HelperTools-master/PNG To Hex/On-Chip Memory/ram.sv
+C:/Users/alee/Desktop/ECE385-HelperTools-master/ECE385-HelperTools-master/PNG To Hex/On-Chip Memory/startROM.sv
+C:/Users/alee/Desktop/ECE385-HelperTools-master/ECE385-HelperTools-master/PNG To Hex/On-Chip Memory/winROM.sv
+C:/Users/alee/Desktop/commet code for ball collision.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/Color_Mapper.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/HexDriver.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/SDC1.sdc
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/VGA_controller.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/__lab7_usb.auto.qarlog
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/ball.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/block.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/brick.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/hpi_io_intf.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab7_soc.qsys
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab7_usb.flow.rpt
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab7_usb.map.rpt
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab7_usb.map.summary
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab7_usb.qsf
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab8.qpf
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab8.qsf
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab8.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab8_assignment_defaults.qdf
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/lab8_tmp_archive.qarlog
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/mylog.txt.txt
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system.qsys
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system.sopcinfo
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/nios_system.cmp
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/nios_system.debuginfo
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/nios_system.qip
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/nios_system.regmap
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/nios_system.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_avalon_sc_fifo.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_avalon_st_clock_crosser.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_avalon_st_pipeline_base.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_avalon_st_pipeline_stage.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_default_burst_converter.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_incr_burst_converter.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_address_alignment.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_arbitrator.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_burst_adapter.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_burst_adapter_13_1.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_burst_adapter_new.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_burst_adapter_uncmpr.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_master_agent.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_master_translator.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_slave_agent.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_slave_translator.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_merlin_width_adapter.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_reset_controller.sdc
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_reset_controller.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_reset_synchronizer.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/altera_wrap_burst_converter.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/lab7_soc_nios2_gen2_0_cpu.sdc
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_Keycode.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_irq_mapper.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_jtag_uart_0.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_005.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_005_error_adapter_0.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_demux_001.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_cmd_mux_001.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_001.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_002.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_003.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_router_007.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_demux_001.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_mm_interconnect_0_rsp_mux_001.sv
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_gen2_0_cpu.sdc
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0_cpu.sdc
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0_cpu.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_sysclk.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_tck.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0_cpu_debug_slave_wrapper.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0_cpu_ociram_default_contents.mif
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0_cpu_rf_ram_a.mif
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0_cpu_rf_ram_b.mif
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_nios2_qsys_0_cpu_test_bench.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.hex
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_onchip_memory2_0.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_otg_hpi_address.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_otg_hpi_cs.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_otg_hpi_data.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_sdram.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_sdram_pll.v
+C:/Users/alee/Documents/UIUCSchoolWork/ECE385/Lab8_provided/nios_system/synthesis/submodules/nios_system_sysid_qsys_0.v
+C:/users/alee/desktop/ece385-helpertools-master/ece385-helpertools-master/png to hex/on-chip memory/scripts/sprite_bytes/back.txt
+C:/users/alee/desktop/ece385-helpertools-master/ece385-helpertools-master/png to hex/on-chip memory/scripts/sprite_bytes/gameover.txt
+C:/users/alee/desktop/ece385-helpertools-master/ece385-helpertools-master/png to hex/on-chip memory/scripts/sprite_bytes/heart.txt
+C:/users/alee/desktop/ece385-helpertools-master/ece385-helpertools-master/png to hex/on-chip memory/scripts/sprite_bytes/start.txt
+C:/users/alee/desktop/ece385-helpertools-master/ece385-helpertools-master/png to hex/on-chip memory/scripts/sprite_bytes/tetris_i.txt
+C:/users/alee/desktop/ece385-helpertools-master/ece385-helpertools-master/png to hex/on-chip memory/scripts/sprite_bytes/youwin.txt
+c:/altera/15.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 104 files to archive =======
+
